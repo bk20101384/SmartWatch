@@ -1,0 +1,31 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerscrollSms"
+    style="@style/SizeActivityLight"
+    android:orientation="vertical" >
+
+    <RelativeLayout 
+        style="@style/MenuBar"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iconBarSms"
+            style="@style/ImageMenuBar"
+            android:contentDescription="@string/stateCall"
+            android:src="@drawable/sms" />
+
+        <TextView 
+            android:id="@+id/nameBarSms"
+            style="@style/NameMenuBar"
+            android:layout_toEndOf="@id/iconBarSms"
+            android:layout_toRightOf="@id/iconBarSms"
+            android:text="@string/all_sms" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listSms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true" >
+    </ListView>
+
+</LinearLayout>

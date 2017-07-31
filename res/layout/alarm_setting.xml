@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SizeActivityDark" >
+
+    <TextView
+        android:id="@+id/nameBarSettingAlarm"
+        style="@style/MenuNoBar"
+        android:text="@string/alarm_setting" />
+
+    <TextView
+        android:id="@+id/timeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameBarSettingAlarm"
+        android:paddingLeft="5dp"
+        android:text="@string/time_alarm"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/timeAlarmSettingContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/timeTitle"
+        android:paddingLeft="5dp"
+        android:text="@string/time"
+        android:textColor="#7a7a7a"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/space1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:layout_below="@+id/timeAlarmSettingContent"
+        android:src="@drawable/spacecall" />
+
+    <TextView
+        android:id="@+id/repeatTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/space1"
+        android:paddingLeft="5dp"
+        android:text="@string/repeat"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/repeatAlarmSettingContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/repeatTitle"
+        android:paddingLeft="5dp"
+        android:text="@string/reapeat_content"
+        android:textColor="#7a7a7a"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/space2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:layout_below="@+id/repeatAlarmSettingContent"
+        android:src="@drawable/spacecall" />
+
+    <TextView
+        android:id="@+id/snoozeTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/space2"
+        android:paddingLeft="5dp"
+        android:text="@string/snooze_duration"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <TextView  
+        android:id="@+id/snoozeAlarmSettingContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/snoozeTitle"
+        android:paddingLeft="5dp"
+        android:text="@string/snooze_duration_content"
+        android:textColor="#7a7a7a"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/space3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/app_name"
+        android:layout_below="@+id/snoozeAlarmSettingContent"
+        android:src="@drawable/spacecall" />
+
+    <LinearLayout
+        android:id="@+id/optionButton"
+        android:layout_width="match_parent"
+        android:layout_height="34dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancelAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/doneAlarm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/done"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

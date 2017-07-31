@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SizeActivityDark"
+    android:layout_width="148dp"
+    android:layout_height="128dp" >
+
+    <LinearLayout
+        android:id="@+id/topLayout"
+        android:layout_width="match_parent"
+        android:layout_height="134dp"
+        android:orientation="vertical" >
+
+        <com.bkav.ui.clock.CustomDigitalClockIcon
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="3dp"
+            android:text="@string/time"
+            android:textColor="@android:color/white"
+            android:textSize="13sp" />
+
+        <TextView
+            android:id="@+id/nameCallDialog"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:text="@string/hello_world"
+            android:textColor="#e9e3e3"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:id="@+id/imageIncomingCall"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:contentDescription="@string/call_dialog"
+            android:src="@drawable/icon_coming_call" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_above="@+id/imageIncomingCall"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:weightSum="3" >
+
+            <ImageView
+                android:id="@+id/reject"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/call_dialog"
+                android:src="@drawable/reject" />
+
+            <ImageView
+                android:id="@+id/accept"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/call_dialog"
+                android:src="@drawable/accept" />
+
+            <ImageView
+                android:id="@+id/silent"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:contentDescription="@string/call_dialog"
+                android:src="@drawable/silent" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

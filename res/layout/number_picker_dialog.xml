@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SizeActivityLight"
+    android:orientation="vertical" >
+
+    <NumberPicker
+        android:id="@+id/number_picker"
+        android:layout_width="match_parent"
+        android:layout_height="140dp"
+        android:layout_gravity="center_horizontal"
+        android:paddingBottom="10dp" 
+        android:layout_weight="2.71" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="10" >
+
+        <Button
+            android:id="@+id/cancel_number_picker"
+            style="?android:attr/button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/save_number_picker"
+            style="?android:attr/button"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="5"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>

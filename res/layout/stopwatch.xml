@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/stopwatch"
+    style="@style/SizeActivityDark"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nameBarStopWatch"
+        style="@style/MenuNoBar"
+        android:gravity="center_horizontal"
+        android:text="@string/stop_watch" />
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text="@string/stopwatch"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/stopwatchButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <Button 
+            android:id="@+id/start"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/defense_start" />
+
+        <Button
+            android:id="@+id/lap"
+            android:layout_width="wrap_content"
+            android:layout_height="35dp"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:background="@drawable/lap" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lapIcon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:stackFromBottom="true"
+        android:transcriptMode="alwaysScroll" >
+    </ListView>
+
+</LinearLayout>

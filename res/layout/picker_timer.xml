@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SizeActivityDark"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/nameBarTimer"
+        style="@style/MenuNoBar" 
+        android:text="@string/set_time" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <NumberPicker
+            android:id="@+id/hoursPickerTimer"
+            style="@style/NumberPicker" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/hai_cham"
+            android:textColor="#2194d9"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <NumberPicker
+            android:id="@+id/minutesPickerTimer"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:text="@string/hai_cham"
+            android:textColor="#2194d9"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <NumberPicker
+            android:id="@+id/secondsPickerTimer"
+            android:layout_width="60dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/setTimer"
+            style="@style/ButtonLeft"
+            android:text="@string/ok" />
+
+        <Button
+            android:id="@+id/cancelTimer"
+            style="@style/ButtonRight"
+            android:text="@string/cancel" />
+    </LinearLayout>
+
+</LinearLayout>

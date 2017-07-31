@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SizeActivityDark" >
+
+    <TextView
+        android:id="@+id/nameBarRepeatDate"
+        style="@style/MenuNoBar"
+        android:text="@string/repeat_date" />
+
+    <ScrollView
+        android:id="@+id/containerDateRepeat"
+        android:layout_width="match_parent"
+        android:layout_height="114dp"
+        android:layout_below="@+id/nameBarRepeatDate" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <CheckBox
+                android:id="@+id/monday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@drawable/checkbox_alarm"
+                android:drawableEnd="?android:attr/listChoiceIndicatorMultiple"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/monday"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@null"
+                android:drawableEnd="?android:attr/listChoiceIndicatorMultiple"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/tuesday"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@null"
+                android:drawableEnd="?android:attr/listChoiceIndicatorMultiple"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/wednesday"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/thurday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@null"
+                android:drawableEnd="?android:attr/listChoiceIndicatorMultiple"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/thurday"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/friday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@null"
+                android:drawableEnd="?android:attr/listChoiceIndicatorMultiple"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/friday"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/saturday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@null"
+                android:drawableEnd="?android:attr/listChoiceIndicatorMultiple"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/saturday"
+                android:textColor="@color/white" />
+
+            <CheckBox
+                android:id="@+id/sunday"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="5dp"
+                android:button="@null"
+                android:drawableEnd="?android:attr/listChoiceIndicatorMultiple"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="@string/sunday"
+                android:textColor="@color/white" />
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/containerDateRepeat"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancelAlarmRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/setAlarmRepeat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/done"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

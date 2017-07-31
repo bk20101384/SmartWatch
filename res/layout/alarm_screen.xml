@@ -1,0 +1,42 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SizeActivityDark" >
+
+    <TextView
+        android:id="@+id/nameBarAlarm"
+        style="@style/MenuNoBar"
+        android:gravity="center_horizontal"
+        android:text="@string/alarm" />
+
+    <ImageView
+        android:id="@+id/addAlarm"
+        android:layout_width="31dp"
+        android:layout_height="31dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:contentDescription="@string/alarm"
+        android:src="@drawable/add" />
+
+    <ScrollView
+        android:id="@+id/containerAlarm"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/nameBarAlarm" >
+
+        <LinearLayout
+            android:id="@+id/containerscrollCall"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:id="@+id/listAlarm"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@android:color/white"
+                android:orientation="vertical" >
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

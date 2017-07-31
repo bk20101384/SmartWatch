@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/smsIcon"
+    android:layout_width="200dp"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="22dp" >
+
+        <TextView
+            android:id="@+id/nameSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:singleLine="true"
+            android:text="@string/hello_world"
+            android:textColor="#086bae"
+            android:textSize="18sp" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/timeSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" 
+            android:textColor="#666666"
+            android:text="@string/time"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/contentSms"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="3dp"
+            android:layout_marginStart="3dp"
+            android:text="@string/hello_world"
+            android:textColor="#000000"
+            android:textSize="13sp" /> 
+    </LinearLayout>
+
+</LinearLayout>

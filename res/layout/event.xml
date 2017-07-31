@@ -1,0 +1,33 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerscrollSms"
+    style="@style/SizeActivityLight"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/MenuBar"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iconBarEvent"
+            style="@style/ImageMenuBar"
+            android:contentDescription="@string/stateCall"
+            android:src="@drawable/event" />
+
+        <TextView
+            android:id="@+id/nameBarEvent"
+            style="@style/NameMenuBar"
+            android:layout_centerHorizontal="true"
+            android:layout_toEndOf="@id/iconBarEvent"
+            android:layout_toRightOf="@id/iconBarEvent"
+            android:text="@string/event" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listEvent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5dp"
+        android:fillViewport="true" >
+    </ListView>
+
+</LinearLayout>

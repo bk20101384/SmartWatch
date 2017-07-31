@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/containerscrollEmailS"
+    style="@style/SizeActivityLight"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        style="@style/MenuBar"
+        android:gravity="center" >
+
+        <ImageView
+            android:id="@+id/iconBarEmail"
+            style="@style/ImageMenuBar"
+            android:contentDescription="@string/app_name"
+            android:src="@drawable/email" />
+
+        <TextView
+            android:id="@+id/nameBarEmail"
+            style="@style/NameMenuBar"
+            android:layout_toEndOf="@id/iconBarEmail"
+            android:layout_toRightOf="@id/iconBarEmail"
+            android:text="@string/all_email" />
+    </RelativeLayout>
+
+    <ListView
+        android:id="@+id/listEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fillViewport="true">
+    </ListView> 
+
+</LinearLayout>

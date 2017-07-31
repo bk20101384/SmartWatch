@@ -1,0 +1,68 @@
+﻿<language key="english">
+    <!-- Watch Screen -->
+     <item key="locale" value="English" description=""/>
+    <!-- Call Screen -->
+    <item key="all_call" value="All call" description=""/>
+    <!-- Sms Screen -->
+    <item key="all_sms" value="All sms" description=""/>
+    <!-- Email Screen -->
+    <item key="all_email" value="All email" description=""/>
+    <!-- Health Screen -->
+    <item key="step_distance" value="Pedometer" description=""/>
+	<item key="steps" value="Steps: " description="" />
+	<item key="distance" value="Distances: " description=""/>
+	<item key="calories" value="Calories: " description=""/>
+	<!-- Alarm Screen -->
+    <item key="alarm" value="Alarm" description=""/>
+    <!-- Setting Screen -->
+    <item key="setting" value="Setting" description=""/>
+	<item key="on" value="On" description=""/>
+	<item key="off" value="Off" description=""/>
+    <item key="brightness" value="Brightness" description=""/>
+	<item key="screen_of_timeout" value="Screen of timeout" description=""/>
+	<item key="fifteen_seconds_long" value="Sleep after 15 seconds of inactivity" description=""/>
+    <item key="thirty_seconds_long" value="Sleep after 30 seconds of inactivity" description=""/>
+    <item key="one_minute_long" value="Sleep after 1 minute of inactivity" description=""/>
+    <item key="two_minutes_long" value="Sleep after 2 minutes of inactivity" description=""/>
+    <item key="fifteen_seconds_short" value="15 seconds" description=""/>
+    <item key="thirty_seconds_short" value="30 seconds" description=""/>
+    <item key="one_minute_short" value="1 minute" description=""/>
+    <item key="two_minutes_short" value="2 minutes" description=""/>
+	<item key="language" value="Language" description=""/>
+	<item key="about" value="About" description=""/>
+	<item key="restart" value="Restart" description=""/>
+	<!-- Stopwatch Screen -->
+	<item key="stopwatch" value="Stopwatch" description=""/>
+	<item key="start" value="Start" description=""/>
+	<item key="stop" value="Stop" description=""/>
+	<item key="restart" value="Restart" description=""/>
+	<item key="lap" value="Lap" description=""/>
+	<!-- Timer Screen -->
+	<item key="timer" value="Timer" description=""/>
+	<item key="start" value="Start" description=""/>
+	<item key="done" value="Done" description=""/>
+	<item key="pause" value="Pause" description=""/>
+	<item key="resume" value="Resume" description=""/>
+	<item key="hours" value="Hours" description=""/>
+	<item key="minutes" value="Minutes" description=""/>
+	<item key="seconds" value="Seconds" description=""/>
+	<!-- About Activity -->
+	<item key="model" value="Model:" description=""/>
+	<item key="modelContent" value="Bwatch 1.0" description=""/>
+	<item key="version" value="Software Version: " description=""/>
+	<item key="versionContent" value="Android 4.4.2" description=""/>
+    <item key="serial" value="Serial Number: " description=""/>
+    <item key="serialContent" value="Chua co gi" description=""/>
+    <item key="buildNumber" value="Build Number" description=""/>
+    <item key="buildNumberContent" value="Chua co gi" description=""/>
+    <item key="battery" value="Battery" description=""/>
+    <item key="batteryContent" value="battery" description=""/>
+    <item key="systemUpdates" value="System Updates" description=""/>
+    <item key="systemUpdatesContent" value="Chua co gi" description=""/>
+    <item key="legalNotices" value="Legal notices" description=""/>
+    <item key="legalNoticesContent" value="Chua co gi" description=""/>
+    <item key="back" value="Back" description=""/>
+    <!-- HealthCare Activity -->
+    <item key="health_care_bar" value="Heart rate" description=""/>
+    <item key="beat_per_minute" value="(beat per minute)" description=""/>
+</language>

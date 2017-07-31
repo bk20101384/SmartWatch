@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SizeActivityDark" >
+    <TextView
+        android:id="@+id/cover"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="#000000" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/healthCareBar"
+        style="@style/NameMenuBar"
+        android:layout_alignParentTop="true"
+        android:text="@string/health_care"
+        android:textColor="#f6306c"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/heartRate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/healthCareBar"
+        android:layout_centerHorizontal="true"
+        android:text="@string/heart_rate" 
+        android:textColor="#f6306c"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/loadingCircle"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:layout_below="@+id/heartRate"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/start_heart_rate"
+        android:contentDescription="@string/about" />
+  
+    <ToggleButton  
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:textOff="Idle"
+        android:textOn="Active" />
+
+</RelativeLayout>

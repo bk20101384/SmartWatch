@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/layoutMissCall"
+    android:layout_width="161dp"
+    android:layout_height="20dp"
+    android:paddingLeft="10dp"
+    android:gravity="center_horizontal" >
+
+    <TextView
+        android:id="@+id/missCall" 
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_toEndOf="@+id/iconMissCall"
+        android:layout_toRightOf="@+id/iconMissCall"
+        android:background="@drawable/circle"
+        android:gravity="center"
+        android:padding="2dp"
+        android:text="@string/zero"
+        android:textColor="#484848"
+        android:textSize="12sp" />
+
+    <ImageView
+        android:id="@+id/iconMissCall"
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/iconIncomeCall"
+        android:gravity="center_vertical"
+        android:src="@drawable/call" />
+
+</RelativeLayout>

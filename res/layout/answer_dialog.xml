@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SizeActivityLight"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="31dp"
+        android:background="@drawable/bar"
+        android:gravity="center_vertical"
+        android:padding="3dp" 
+        android:singleLine="true"
+        android:text="@string/hello_world"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:orientation="horizontal"
+        android:weightSum="2" >
+
+        <ImageView
+            android:id="@+id/callBack"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/call_dialog"
+            android:src="@drawable/accept" />
+
+        <ImageView
+            android:id="@+id/quickReply"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:contentDescription="@string/call_dialog"
+            android:src="@drawable/quickmessage" />
+
+    </LinearLayout>
+</LinearLayout>

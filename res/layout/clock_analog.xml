@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="250dp"
+    android:layout_height="226dp"
+    android:layout_gravity="center"
+    android:background="#1c1c1c" >
+
+    <LinearLayout
+        android:id="@+id/iconContainer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        android:layout_centerVertical="true" 
+        android:layout_marginBottom="40dp"
+        android:baselineAligned="false"
+        android:orientation="horizontal" >
+        
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/dateAnalogClock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="@string/date"
+        android:textColor="#484848" />
+
+    <ImageView
+        android:id="@+id/imageSecondsClockwise"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:contentDescription="@string/seconds"
+        android:src="@drawable/seconds" />
+
+    <AnalogClock
+        android:id="@+id/analogClock"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:dial="@drawable/dial"
+        android:hand_hour="@drawable/hours"
+        android:hand_minute="@drawable/minutes" >
+    </AnalogClock>
+
+</RelativeLayout>

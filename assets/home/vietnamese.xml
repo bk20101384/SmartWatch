@@ -1,0 +1,65 @@
+﻿<language key="vietnamese">
+	<!-- Watch Screen -->
+    <item key="locale" value="VietNam" description=""/>
+    <!-- Call Screen -->
+    <item key="all_call" value="Cuộc gọi" description=""/>
+    <!-- Sms Screen -->
+    <item key="all_sms" value="Tin nhắn" description=""/>
+    <!-- Email Screen -->
+    <item key="all_email" value="Thư điện tử" description=""/>
+    <!-- Health Screen -->
+    <item key="step_distance" value="Đo bước chân" description=""/>
+	<item key="steps" value="Bước chân: " description="" />
+	<item key="distance" value="Quãng đường: " description=""/>
+	<item key="calories" value="Năng lượng: " description=""/>
+	<!-- Alarm Screen -->
+    <item key="alarm" value="Báo thức" description=""/>
+    <!-- Setting Screen -->
+    <item key="setting" value="Cài đặt" description=""/>
+	<item key="on" value="Bật" description=""/>
+	<item key="off" value="Tắt" description=""/>
+	<item key="brightness" value="Độ sáng" description=""/>
+	<item key="screen_of_timeout" value="Thời gian chuyển về ngủ" description=""/>
+	<item key="fifteen_seconds_long" value="Ngủ sau 15 giây ngừng hoạt động" description=""/>
+    <item key="thirty_seconds_long" value="Ngủ sau 30 giây ngừng hoạt động" description=""/>
+    <item key="one_minute_long" value="Ngủ sau 1 phút ngừng hoạt động" description=""/>
+    <item key="two_minutes_long" value="Ngủ sau 2 phút ngừng hoạt động" description=""/>
+    <item key="fifteen_seconds_short" value="15 giây" description=""/>
+    <item key="thirty_seconds_short" value="30 giây" description=""/>
+    <item key="one_minute_short" value="1 phút" description=""/>
+    <item key="two_minutes_short" value="2 phút" description=""/>
+	<item key="language" value="Ngôn ngữ" description=""/>
+	<item key="about" value="Thông tin" description=""/>
+	<item key="restart" value="Khởi động lại" description=""/>
+	<!-- Stopwatch Screen -->
+	<item key="stopwatch" value="Đ.hồ bấm giờ" description=""/>
+	<item key="start" value="Bắt đầu" description=""/>
+	<item key="stop" value="Dừng" description=""/>
+	<item key="restart" value="Kết thúc" description=""/>
+	<item key="lap" value="Lưu" description=""/>
+	<!-- Timer Screen -->
+	<item key="timer" value="Hẹn giờ" description=""/>
+	<item key="start" value="Bắt đầu" description=""/>
+	<item key="done" value="Hủy" description=""/>
+	<item key="pause" value="Tạm dừng" description=""/>
+	<item key="resume" value="Tiếp tục" description=""/>
+	<!-- About Activity -->
+	<item key="model" value="Phiên bản:" description=""/>
+	<item key="modelContent" value="Bwatch 1.0" description=""/>
+	<item key="version" value="Phiên bản Android:" description=""/>
+	<item key="versionContent" value="Android 4.4.2" description=""/>
+    <item key="serial" value="Mã số:" description=""/>
+    <item key="serialContent" value="Chua co gi" description=""/>
+    <item key="buildNumber" value="Phiên bản phát triển:" description=""/>
+    <item key="buildNumberContent" value="Chua co gi" description=""/>
+    <item key="battery" value="Thời lượng pin:" description=""/>
+    <item key="batteryContent" value="battery" description=""/>
+    <item key="systemUpdates" value="Cập nhật hệ thống:" description=""/>
+    <item key="systemUpdatesContent" value="Chua co gi" description=""/>
+    <item key="legalNotices" value="Giấy phép:" description=""/>
+    <item key="legalNoticesContent" value="Chua co gi" description=""/>
+    <item key="back" value="Back" description=""/>
+    <!-- HealthCare Activity -->
+    <item key="health_care_bar" value="Đo nhịp tim" description=""/>
+    <item key="beat_per_minute" value="(nhịp mỗi phút)" description=""/>
+</language>

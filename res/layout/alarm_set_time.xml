@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/SizeActivityDark" >
+
+    <TextView
+        android:id="@+id/nameBarRepeatDate"
+        style="@style/MenuNoBar"
+        android:text="@string/set_time" />
+
+    <LinearLayout
+        android:id="@+id/containerSetTime"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"    
+        android:layout_below="@+id/nameBarRepeatDate"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal" >
+
+        <NumberPicker
+            android:id="@+id/hoursAlarmCreate"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+
+        <NumberPicker
+            android:id="@+id/minutesAlarmCreate"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_below="@+id/containerSetTime"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/cancelAlarmTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/cancel"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/setAlarmTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="?android:attr/selectableItemBackground"
+            android:text="@string/done"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>
